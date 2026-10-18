@@ -1,0 +1,71 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.mySlides {
+  display: none;
+}
+
+p.w3-justify {
+  font-size: 18px;
+  color: #e70808;
+  line-height: 1.6;
+}
+
+img {
+  border-radius: 70px !important;
+}
+
+.w3-tag {
+  background-color: #71ec75 !important;
+  color: #ffffff !important;
+}
+
+/* Change the "3" badge */
+.w3-badge {
+  background-color: #d80a0a !important; 
+  color: #ffffff !important; 
+}
+
+ul li {
+  background-color: #072b08 !important; 
+  color: #dbd40b !important;
+  font-size: 16px;
+}
+
+#contact {
+  border-bottom: 4px solid #790909; 
+  padding-bottom: 40px;
+}
+
+#contact h2 {
+  text-decoration: underline;
+  color: #790909;
+}
+
+#contact .w3-large {
+  font-size: 20px !important;
+  font-weight: bold;
+}
+
+#contact i {
+  color: #790909; 
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+h2 {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+
